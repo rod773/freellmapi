@@ -1414,6 +1414,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@freellmapi/tui@workspace:tui":
+  version: 0.0.0-use.local
+  resolution: "@freellmapi/tui@workspace:tui"
+  dependencies:
+    "@types/blessed": "npm:^0.1.22"
+    blessed: "npm:^0.1.81"
+    tsx: "npm:^4.19.4"
+    typescript: "npm:^5.8.3"
+  bin:
+    freellmapi-tui: ./dist/index.js
+  languageName: unknown
+  linkType: soft
+
 "@hono/node-server@npm:^1.19.9":
   version: 1.19.14
   resolution: "@hono/node-server@npm:1.19.14"
@@ -2277,6 +2290,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/blessed@npm:^0.1.22":
+  version: 0.1.27
+  resolution: "@types/blessed@npm:0.1.27"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: 10c0/0ae3f4a707d1cdade3d7ee86e3d6569b43f97c578a802709d191e8baa861170fd25fd2cfb75c846f6f67658ef44b401af5776966a89a0152a960ce377220f9e0
+  languageName: node
+  linkType: hard
+
 "@types/body-parser@npm:*":
   version: 1.19.6
   resolution: "@types/body-parser@npm:1.19.6"
@@ -3000,6 +3022,15 @@ __metadata:
     inherits: "npm:^2.0.4"
     readable-stream: "npm:^3.4.0"
   checksum: 10c0/02847e1d2cb089c9dc6958add42e3cdeaf07d13f575973963335ac0fdece563a50ac770ac4c8fa06492d2dd276f6cc3b7f08c7cd9c7a7ad0f8d388b2a28def5f
+  languageName: node
+  linkType: hard
+
+"blessed@npm:^0.1.81":
+  version: 0.1.81
+  resolution: "blessed@npm:0.1.81"
+  bin:
+    blessed: ./bin/tput.js
+  checksum: 10c0/19515ff7899e8af0dd6c080e30e849833ee9518508cc4eabae5a2ea5f17440537a2526169081f20c79d73fbbeca26cc798cc4b037ec250f91f4952b3a75a2143
   languageName: node
   linkType: hard
 
