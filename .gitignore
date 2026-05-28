@@ -8,6 +8,10 @@ server/data/
 .env
 .env.local
 .DS_Store
+package-lock.json
+
+# Yarn (modern) artifacts
+.yarn/install-state.gz
 
 # Personal deployment scripts (contain keys/credentials — kept local)
 deploy-pi.sh
